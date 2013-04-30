@@ -1,0 +1,11 @@
+git init [--bare] [--shared[=<permission]] [--template=<template_dir>] [directory]
+
+== Summary ==
+Initialize GIT repository. 
+When [directory] is omitted, the current directory is initialized. 
+
+== Options == 
+[--base]      Bare repository does not have working directory, mainly for shared & public. 
+[--shared]    Specify UNIX-type permittion to the directory for access permission. 
+[--template]  Specify directory from which contents (e.g., hook scripts) to be copied. 
+
